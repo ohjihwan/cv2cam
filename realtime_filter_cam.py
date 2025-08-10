@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 from datetime import datetime
+import time
 import os
-import time  # ⬅️ 추가: 프레임 페이싱용
 
 # Haar 얼굴 검출기 로드
 FACE_CASCADE = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
